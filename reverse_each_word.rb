@@ -10,8 +10,9 @@ def reverse_each_word(string)
   string = string.split
   string.collect do |word|
   word.reverse 
+  string.join(" ")
   end  
-string.join(" ")
+
 end  
 
   
